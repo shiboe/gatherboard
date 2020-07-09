@@ -1,0 +1,10 @@
+{
+  "name": "gatherboard",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "serve": "python -m SimpleHTTPServer 8080"
+  },
+  "author": "stephen.cave@leftfieldlabs.com",
+  "license": "ISC"
+}
