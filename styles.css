@@ -2,26 +2,33 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #eae7dc;
   font: 22px "Roboto", sans-serif;
   font-weight: 400;
   color: #123c69;
 }
 
+html {
+  background-image: url("media/sick-back.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 h1 {
   text-align: center;
   margin: 10vh auto 0;
-  font: 82px "Modak", cursive;
-  color: #ac3b61;
+  font: 82px "Monoton", cursive;
+  color: #fff;
   line-height: 1;
+  text-shadow: 2px 2px 4px #000;
 }
 
 h3 {
-  font: 24px "Roboto", sans-serif;
+  font: 42px "Yellowtail", cursive;
   font-weight: 300;
   text-align: center;
-  color: #ac3b61;
+  color: #fff;
   margin: 0;
+  text-shadow: 2px 2px 4px #000;
 }
 
 .keyboard {
@@ -44,10 +51,11 @@ h3 {
   justify-content: flex-end;
   padding: 20px 4px;
   box-sizing: border-box;
+  opacity: 0.8;
 }
 
 .key.active {
-  background-color: pink;
+  background-color: rgba(250, 25, 200, 0.4);
 }
 
 .key,
