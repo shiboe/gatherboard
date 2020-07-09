@@ -8,6 +8,11 @@ const getBind = (el) => {
 const playBind = (key) => {
   if (key && data[key]) {
     new Audio(data[key]).play();
+
+    document.getElementById(key).classList.add("active");
+    setTimeout(() => {
+      document.getElementById(key).classList.remove("active");
+    }, 200);
   }
 };
 

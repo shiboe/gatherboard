@@ -46,6 +46,10 @@ h3 {
   box-sizing: border-box;
 }
 
+.key.active {
+  background-color: pink;
+}
+
 .key,
 .key * {
   user-select: none;
